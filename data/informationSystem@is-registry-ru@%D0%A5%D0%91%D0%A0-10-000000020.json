@@ -1,0 +1,30 @@
+{
+  "code": "ХБР-10-000000020",
+  "classCategory": "10",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "Парус-Бюджет 7",
+  "name": "Парус-Бюджет 7",
+  "appointment": "Автоматизация деятельности распорядителей бюджетных  средств при исполнении федерального бюджета, бюджетов субъектов РФ и муниципальных образований\n",
+  "operator": "002721027316",
+  "type": "gos",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "code": "ХБР-10-000000028",
+  "classCategory": "10",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "Информационный интернет-портал Правительства края \"Открытый регион\"",
+  "name": "Информационный интернет-портал Правительства края \"Открытый регион\"",
+  "appointment": "Интернет-ресурс для взаимодействия граждан с федеральными, краевыми и муниципальными органами власти. Подача официальных обращений в рамказ 59-ФЗ\n",
+  "operator": "002721194589",
+  "type": "gos",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}

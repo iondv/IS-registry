@@ -1,0 +1,31 @@
+{
+  "code": "ХБР-10-000000006",
+  "classCategory": "10",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "Cистема архивирования и передачи медицинских изображений (АТРИС)",
+  "name": "(АТРИС)",
+  "appointment": "Построение регионального DICOM-сегмента\n",
+  "operator": "002724041260",
+  "industry": "health",
+  "type": "gos",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}

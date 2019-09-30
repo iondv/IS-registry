@@ -1,0 +1,17 @@
+users:
+  - id: user
+    name: Тестовый пользователь
+    pwd:
+      hash: >-
+        pbkdf2$10000$7b722ba116463818f25b00976bf7372a51a33e6cb5c36da4af3edb382c5ed5068357ef03efd3fdcf7172a7a6452fa0d75344912aa9d3a2b0010ed2423300727e$f7ec22c9a0b1a24fcc016020cc66f4827c602496374e1f2cf180e054d416a6cdad38f6edcb85889e271f8146e1d5c6a3073b55e75d5b1338f3049ebb8071a5a9
+    type: local
+    roles:
+      - Users
+  - id: admin
+    name: Администратор
+    pwd:
+      hash: >-
+        pbkdf2$10000$d6ae591cc86f9c3616a6b78026009819bb8bf2cf04604fb9dc022a63e3f4fa617a9976ee17fdb4b587c1e2bb5183b3d1ed9ab1649cc5224bb7ad31c9af2f6285$029d6168d764959ff82f211be128615856a76266cab448e3b312133de9ca0a951b38e1d30090c586d9b9ab55fe17109690626e7e02e4def8b162558ad4acf53d
+    type: local
+    roles:
+      - Admins

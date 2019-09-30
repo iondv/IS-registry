@@ -1,0 +1,19 @@
+roles:
+  - id: Users
+    name: Обычные пользователи
+    permissions:
+      "*":
+        - read
+  - id: Admins
+    name: Администраторы
+    permissions:
+      "*":
+        - full
+  - id: IS_OPERATOR # TODO Операторы ведомственных систем имеют права на запись ИС
+    name: Операторы ведомственных систем
+    permissions:
+      is-registry-ru::is:
+        - read
+        - use
+        - write
+

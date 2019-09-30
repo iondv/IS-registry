@@ -1,0 +1,30 @@
+{
+  "code": "ХБР-10-000000032",
+  "classCategory": "10",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "Информационная система \"Система проектного управления Хабаровского края\"",
+  "name": "СУПД",
+  "appointment": "Ведение реестра проектов, реализуемых на территории Хабаровского края. \n",
+  "operator": "002721194589",
+  "type": "gos",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}

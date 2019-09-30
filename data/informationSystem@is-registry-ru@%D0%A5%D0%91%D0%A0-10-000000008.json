@@ -1,0 +1,31 @@
+{
+  "code": "ХБР-10-000000008",
+  "classCategory": "10",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "Автоматизированная система \"ОИВ № 14\" министерства образования и науки Хабаровского края",
+  "name": "Автоматизированная система \"ОИВ № 14\" министерства образования и науки Хабаровского края",
+  "appointment": "Ведение регионального банка данных о детях, оставшихся без попечения родителей\n",
+  "operator": "002721092530",
+  "industry": "edu",
+  "type": "gos",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}

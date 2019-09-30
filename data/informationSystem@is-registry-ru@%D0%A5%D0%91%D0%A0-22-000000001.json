@@ -1,0 +1,31 @@
+{
+  "code": "ХБР-22-000000001",
+  "classCategory": "22",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "Единая информационная система кадрового учета медицинских работников Хабаровского края (ЕИС кадры)",
+  "name": "Единая информационная система кадрового учета медицинских работников Хабаровского края (ЕИС кадры)",
+  "appointment": "Осуществление комплексной автоматизации деятельности кадровых служб медицинских учреждений, в которых есть должности медицинского персонала, а также для государственных и муниципальных органов управления этими учреждениями\n",
+  "operator": "002724041260",
+  "industry": "other",
+  "type": "gos",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}

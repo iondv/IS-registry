@@ -1,0 +1,16 @@
+{
+  "code": "specialObject.modelDefend",
+  "orderNumber": 80,
+  "type": 1,
+  "title": "",
+  "caption": "Модель угроз",
+  "classname": "modelDefend",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": [],
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.0"
+}

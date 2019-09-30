@@ -1,0 +1,30 @@
+{
+  "code": "ХБР-10-000000003",
+  "classCategory": "10",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "Автоматизированная информационная система размещения заказов Хабаровского края (РИС Закупок)",
+  "name": "(РИС Закупок)",
+  "type": "gos",
+  "appointment": "Для автоматизации (информатизации) деятельности, направленной на обеспечение государственных нужд\n",
+  "operator": "002721180057",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}

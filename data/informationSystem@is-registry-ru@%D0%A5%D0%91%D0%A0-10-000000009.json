@@ -1,0 +1,31 @@
+{
+  "code": "ХБР-10-000000009",
+  "classCategory": "10",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "Автоматизированная информационная система \"Комплектование ДОУ\"",
+  "name": "Автоматизированная информационная система \"Комплектование ДОУ\"",
+  "appointment": "Обеспечение электронной очереди в дошкольные организации Хабаровского края\n",
+  "operator": "002721092530",
+  "industry": "edu",
+  "type": "gos",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}

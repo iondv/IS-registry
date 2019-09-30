@@ -1,0 +1,203 @@
+{
+  "isStruct": false,
+  "key": [
+    "id"
+  ],
+  "semantic": "Класс защищенности: |name",
+  "name": "classDefend",
+  "version": "20160916",
+  "caption": "Классы защищенности информационной системы",
+  "ancestor": null,
+  "container": null,
+  "creationTracker": "",
+  "changeTracker": "",
+  "history": 0,
+  "journaling": false,
+  "compositeIndexes": [
+    {
+      "properties": [
+        "name"
+      ],
+      "unique": true
+    }
+  ],
+  "properties": [
+    {
+      "orderNumber": 10,
+      "name": "id",
+      "caption": "Идентификатор",
+      "type": 12,
+      "size": 24,
+      "decimals": 0,
+      "allowedFileTypes": null,
+      "maxFileCount": 0,
+      "nullable": false,
+      "readonly": true,
+      "indexed": false,
+      "unique": true,
+      "autoassigned": true,
+      "hint": null,
+      "defaultValue": null,
+      "refClass": "",
+      "itemsClass": "",
+      "backRef": "",
+      "backColl": "",
+      "binding": "",
+      "semantic": null,
+      "selConditions": [],
+      "selSorting": [],
+      "selectionProvider": null,
+      "indexSearch": false,
+      "eagerLoading": false,
+      "formula": null
+    },
+    {
+      "orderNumber": 20,
+      "name": "name",
+      "caption": "Класс защищенности",
+      "type": 0,
+      "size": null,
+      "decimals": 0,
+      "allowedFileTypes": null,
+      "maxFileCount": 0,
+      "nullable": true,
+      "readonly": false,
+      "indexed": false,
+      "unique": true,
+      "autoassigned": false,
+      "hint": null,
+      "defaultValue": null,
+      "refClass": "",
+      "itemsClass": "",
+      "backRef": "",
+      "backColl": "",
+      "binding": "",
+      "semantic": null,
+      "selConditions": [],
+      "selSorting": [],
+      "selectionProvider": {
+        "type": "SIMPLE",
+        "list": [
+          {
+            "key": "1",
+            "value": "1 класс"
+          },
+          {
+            "key": "2",
+            "value": "2 класс"
+          },
+          {
+            "key": "3",
+            "value": "3 класс"
+          },
+          {
+            "key": "4",
+            "value": "4 класс"
+          },
+          {
+            "key": "no",
+            "value": "Не осуществляет обработку ПД"
+          },
+          {
+            "key": "undef",
+            "value": "Не определен"
+          }
+        ],
+        "matrix": [],
+        "parameters": [],
+        "hq": ""
+      },
+      "indexSearch": false,
+      "eagerLoading": false,
+      "formula": null
+    },
+    {
+      "orderNumber": 30,
+      "name": "steps",
+      "caption": "Каталог мер защиты информации",
+      "type": 14,
+      "size": null,
+      "decimals": 0,
+      "allowedFileTypes": null,
+      "maxFileCount": 0,
+      "nullable": true,
+      "readonly": false,
+      "indexed": false,
+      "unique": false,
+      "autoassigned": false,
+      "hint": null,
+      "defaultValue": null,
+      "refClass": "",
+      "itemsClass": "dirDefend",
+      "backRef": "",
+      "backColl": "classDef",
+      "binding": "",
+      "semantic": null,
+      "selConditions": [],
+      "selSorting": [],
+      "selectionProvider": null,
+      "indexSearch": false,
+      "eagerLoading": false,
+      "formula": null
+    },
+    {
+      "orderNumber": 1010,
+      "name": "verify",
+      "caption": "Проверен",
+      "type": 10,
+      "size": null,
+      "decimals": 0,
+      "allowedFileTypes": null,
+      "maxFileCount": 0,
+      "nullable": false,
+      "readonly": false,
+      "indexed": false,
+      "unique": false,
+      "autoassigned": false,
+      "hint": null,
+      "defaultValue": "false",
+      "refClass": "",
+      "itemsClass": "",
+      "backRef": "",
+      "backColl": "",
+      "binding": "",
+      "semantic": null,
+      "selConditions": [],
+      "selSorting": [],
+      "selectionProvider": null,
+      "indexSearch": false,
+      "eagerLoading": false,
+      "formula": null
+    },
+    {
+      "orderNumber": 31,
+      "name": "informationSystem",
+      "caption": "Наименование ИС",
+      "type": 14,
+      "size": null,
+      "decimals": 0,
+      "allowedFileTypes": null,
+      "maxFileCount": 0,
+      "nullable": true,
+      "readonly": false,
+      "indexed": false,
+      "unique": false,
+      "autoassigned": false,
+      "hint": null,
+      "defaultValue": null,
+      "refClass": "",
+      "itemsClass": "informationSystem",
+      "backRef": "classDef",
+      "backColl": "",
+      "binding": "",
+      "semantic": null,
+      "selConditions": [],
+      "selSorting": [],
+      "selectionProvider": null,
+      "indexSearch": false,
+      "eagerLoading": false,
+      "formula": null
+    }
+  ],
+  "metaVersion": "2.0.0"
+}

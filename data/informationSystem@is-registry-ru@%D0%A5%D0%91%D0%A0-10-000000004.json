@@ -1,0 +1,31 @@
+{
+  "code": "ХБР-10-000000004",
+  "classCategory": "10",
+  "statusCheck": "Не стоит на учете",
+  "active": false,
+  "personUchet": [],
+  "verify": false,
+  "fullName": "\"Автоматизированная информационная система ЗАГС Хабаровского края  (ИС \"\"Находка-ЗАГС\"\")\"",
+  "name": "(ИС \"\"Находка-ЗАГС\"\")\"",
+  "appointment": "Автоматизация деятельности органов записи актов гражданского состояния Хабаровского края, образованных органами государственной власти субъектов Российской Федерации. Вид автоматизируемой деятельности: регистрация и учет записей актов гражданского состояния в соответствии с действующим законодательством Российской Федерации\n",
+  "operator": "002721214919",
+  "industry": "other",
+  "type": "gos",
+  "_class": "informationSystem@is-registry-ru",
+  "_classVer": "20160916",
+  "___workflowStatus": {
+    "conventionIS@is-registry-ru": {
+      "next": {
+        "inAlignment": {
+          "name": "inAlignment",
+          "caption": "На согласование",
+          "signBefore": false,
+          "signAfter": false
+        }
+      },
+      "workflowCaption": "Согласование ИС",
+      "stageCaption": "Не стоит на учете",
+      "stage": "notYchet"
+    }
+  }
+}
