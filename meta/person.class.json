@@ -393,10 +393,10 @@
       "formula": null
     },
     {
-      "orderNumber": 61,
+      "orderNumber": 53,
       "name": "responsibility",
       "caption": "Сфера ответственности",
-      "type": 0,
+      "type": 13,
       "size": null,
       "decimals": 0,
       "allowedFileTypes": null,
@@ -408,7 +408,7 @@
       "autoassigned": false,
       "hint": null,
       "defaultValue": null,
-      "refClass": "",
+      "refClass": "responsibility",
       "itemsClass": "",
       "backRef": "",
       "backColl": "",
@@ -416,34 +416,7 @@
       "semantic": null,
       "selConditions": [],
       "selSorting": [],
-      "selectionProvider": {
-        "type": "SIMPLE",
-        "list": [
-          {
-            "key": "organizRazmeshSved",
-            "value": "Ответственный за организацию размещения сведений в системе учета информационных систем"
-          },
-          {
-            "key": "razmeshSvedVSistem",
-            "value": "Ответственный за размещение сведений в системе учета информационных систем"
-          },
-          {
-            "key": "koordinMeropriyat",
-            "value": "Ответственный за координацию мероприятий по информатизации"
-          },
-          {
-            "key": "organizZakupok",
-            "value": "Ответственный за организацию закупок"
-          },
-          {
-            "key": "obespechExspluataci",
-            "value": "Ответственный за обеспечение эксплуатации"
-          }
-        ],
-        "matrix": [],
-        "parameters": [],
-        "hq": ""
-      },
+      "selectionProvider": null,
       "indexSearch": false,
       "eagerLoading": false,
       "formula": null

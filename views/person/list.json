@@ -246,7 +246,7 @@
     {
       "sorted": true,
       "caption": "Сфера ответственности",
-      "type": 1,
+      "type": 2,
       "property": "responsibility",
       "size": 2,
       "maskName": null,

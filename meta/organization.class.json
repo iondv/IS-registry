@@ -3,7 +3,7 @@
   "key": [
     "INN"
   ],
-  "semantic": "INN",
+  "semantic": "fullName",
   "name": "organization",
   "version": "20160916",
   "caption": "Организация",
@@ -176,7 +176,7 @@
       "decimals": 0,
       "allowedFileTypes": null,
       "maxFileCount": 0,
-      "nullable": true,
+      "nullable": false,
       "readonly": false,
       "indexed": false,
       "unique": false,

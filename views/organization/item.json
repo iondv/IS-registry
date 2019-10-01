@@ -67,7 +67,7 @@
           "actions": null,
           "commands": null,
           "orderNumber": 30,
-          "required": false,
+          "required": true,
           "visibility": null,
           "enablement": null,
           "obligation": null,

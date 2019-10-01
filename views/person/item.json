@@ -161,7 +161,7 @@
         },
         {
           "caption": "Организация",
-          "type": 2,
+          "type": 5,
           "property": "organization",
           "size": null,
           "maskName": null,
@@ -291,7 +291,7 @@
         },
         {
           "caption": "Сфера ответственности",
-          "type": 1,
+          "type": 5,
           "property": "responsibility",
           "size": 2,
           "maskName": null,
