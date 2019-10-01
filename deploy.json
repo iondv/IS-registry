@@ -1,4 +1,5 @@
 {
+  "parametrised": true,
   "namespace": "is-registry-ru",
   "globals": {
     "moduleTitles": {
@@ -33,7 +34,14 @@
               "sidAttribute": "id",
               "jumps": [
                 "organization",
-                "person"
+                "person",
+                "assistant"
+              ]
+            },
+            "organization@is-registry-ru": {
+              "sidAttribute": "INN",
+              "jumps": [
+                "headOrg"
               ]
             }
           }
@@ -106,11 +114,9 @@
             },
             "employee@is-registry-ru": {
               "filter": "person.user",
-              "recursion": {
-                "id": "employee.id"
-              },
               "properties": {
-                "employee": "id"
+                "employee": "id",
+                "organization": "organization.INN"
               }
             }
           }
@@ -128,12 +134,15 @@
           "accessManager": "ion://roleAccessManager",
           "roleMap": {
             "informationSystem@is-registry-ru": {
-              "IS_OPERATOR": {
-                "caption": "Оператор ведомственной системы",
+              "IS_OWNER": {
+                "caption": "Сотрудники организации",
                 "resource": {
                   "id": "is-registry-ru::is"
                 },
-                "attribute": "owner"
+                "sids": [
+                  "$operator",
+                  "$personUchet"
+                ]
               }
             }
           }

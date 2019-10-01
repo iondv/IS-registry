@@ -775,7 +775,7 @@
       "hint": null,
       "defaultValue": null,
       "refClass": null,
-      "itemsClass": "person",
+      "itemsClass": "employee",
       "backRef": "",
       "backColl": "",
       "binding": "",

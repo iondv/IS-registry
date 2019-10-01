@@ -9,8 +9,8 @@ roles:
     permissions:
       "*":
         - full
-  - id: IS_OPERATOR # TODO Операторы ведомственных систем имеют права на запись ИС
-    name: Операторы ведомственных систем
+  - id: IS_OWNER # Ответственные сотрудники (могут править инфо об ИС)
+    name: Ответственные
     permissions:
       is-registry-ru::is:
         - read

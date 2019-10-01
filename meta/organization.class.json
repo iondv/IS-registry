@@ -153,14 +153,7 @@
       "backColl": "",
       "binding": "",
       "semantic": null,
-      "selConditions": [
-        {
-          "property": "branch",
-          "operation": 2,
-          "value": null,
-          "nestedConditions": []
-        }
-      ],
+      "selConditions": [],
       "selSorting": [],
       "selectionProvider": null,
       "indexSearch": false,
