@@ -1,6 +1,6 @@
 # IONDV. IS-registry
 
-IONDV. IS-registry - is a web application based on [IONDV. Framework] (https://iondv.com). It is used as a registry to account, store, and present the data on the 
+IONDV. IS-registry - is a web application based on [IONDV. Framework](https://iondv.com). It is used as a registry to account, store, and present the data on the 
 availability of information systems
 (informatization, types of support, costs of creation and maintenance, level of protection, etc.) necessary for the conduct of the activities of organizations.
 A key entity is an information system that contains information about the nature and links to objects, detailed information about the accounting object.
