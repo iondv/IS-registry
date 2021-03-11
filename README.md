@@ -41,7 +41,7 @@ The main advantage of using the system is the analysis of the current state and 
 
 ### Git
 
-Быстрый старт с использованием репозитория IONDV. IS-registry на GitHub — [подробная инструкция](https://github.com/iondv/framework/blob/master/docs/ru/readme.md#быстрый-старт-с-использованием-репозитория).  
+Быстрый старт с использованием репозитория IONDV. IS-registry на GitHub — [подробная инструкция](https://github.com/iondv/framework/blob/master/docs/ru/readme.md#-------сборка-приложения-из-репозитория----).  
 
 1. Установите системное окружение и глобальные зависимости.
 2. Клонируйте ядро, модуль и приложение.
