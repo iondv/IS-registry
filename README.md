@@ -6,7 +6,6 @@ availability of information systems
 A key entity is an information system that contains information about the nature and links to objects, detailed information about the accounting object.
 
 The main advantage of using the system is the analysis of the current state and the availability of information systems.
-The app is free for everyone but available only in Russian. 
 
 ## Описание  
 
