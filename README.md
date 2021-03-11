@@ -17,13 +17,13 @@ The main advantage of using the system is the analysis of the current state and 
 
 ### Демо
 
-Демо доступ в систему для ознакомления, без регистрации: https://is-registy-ru.iondv.com
+Демо доступ в систему для ознакомления, без регистрации: https://is-registry-ru.iondv.com
 
-Учетная запись для [бек-офиса](https://is-registy-ru.iondv.com/registry): пользователь **demo**, пароль **ion-demo**. 
+Учетная запись для [бек-офиса](https://is-registry-ru.iondv.com/registry): пользователь **demo**, пароль **ion-demo**. 
 
 ### Дополнительные преимущества:
  
-* Открытый исходный код всех компонентов Системы - https://github.com/iondv/is-registy-ru;
+* Открытый исходный код всех компонентов Системы - https://github.com/iondv/is-registry-ru;
 * Открытое программное обеспечение используемое для СУБД и серверных ОС (работет под linux и windows);
 * Возможна любая адаптация и модернизация системы, в том числе структур данных без программирования в [визуальном редакторе](https://studio.iondv.com).
 * Запуск собственной версии в течении нескольких минут - см. [Как получить](#как-получить)
